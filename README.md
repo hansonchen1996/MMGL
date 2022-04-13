@@ -14,7 +14,7 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
   - [ ] Provide models and logs
   - [ ] Stay tuned
 
-## 1. Datasets
+## Datasets
 
 - (1) RegDB: The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
 
