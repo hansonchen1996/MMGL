@@ -13,3 +13,15 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
   - [ ] Provide the source code (The code is coming soon!)
   - [ ] Provide models and logs
   - [ ] Stay tuned
+
+## 1. Datasets.
+
+- (1) RegDB: The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
+
+    - (Named: "Dongguk Body-based Person Recognition Database (DBPerson-Recog-DB1)" on their website). 
+
+    - A private download link can be requested via sending me an email (mangye16@gmail.com). 
+  
+- (2) SYSU-MM01: The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
+
+   - run `python pre_process_sysu.py` to pepare the dataset, the training data will be stored in ".npy" format.
