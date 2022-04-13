@@ -4,4 +4,4 @@
 
 This is the offical implementation of the paper 'Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification'.
 
-# The code is coming soon!
+# To Do List (The code is coming soon!)
