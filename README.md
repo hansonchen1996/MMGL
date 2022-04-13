@@ -1,6 +1,6 @@
 # Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification
 
-![](pipeline.pdf)
+![](pipeline.jpg)
 
 The offical implementation of the paper 'Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification'.
 
