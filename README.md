@@ -100,12 +100,12 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 **Fine-Tuned Results：**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
-|#AGW  | MMGL | -----   | -----  | -----  | avaliable soon|
-|#DDAG     | MMGL | -----  | ----- | ----- |avaliable soon|
+|AGW  | MMGL | -----   | -----  | -----  | avaliable soon|
+|DDAG     | MMGL | -----  | ----- | ----- |avaliable soon|
 
 **ImageNet Supervised Pre-Training Fine-Tuned Results：**:
 
 |Methods    | Pretrained| Rank@1  | mAP  |  Model|
 | --------   | -----    | -----  |  -----   |------|
-|#AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
-|#DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
+|AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
+|DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
