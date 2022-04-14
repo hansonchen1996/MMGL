@@ -12,8 +12,9 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 
 # To Do List
 
-  - [ ] Provide the source code (The code is coming soon!)
-  - [ ] Provide models and logs
+  - [x] Release the fine-tuned models and training logs
+  - [ ] Release the source code (The code is coming soon!)
+  - [ ] Release the pre-trained models and logs
   - [ ] Stay tuned
 
 # How to Use
