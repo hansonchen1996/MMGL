@@ -73,10 +73,10 @@ python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 
 **Pre-trained Models：**
 
-Method | inf_time | train_time | box AP | download
+Backbone | Training Time | Permutation Accuracy | Link
 --- |:---:|:---:|:---:|:---:
-[R18_dcn](projects/OneNet/configs/onenet.res18.dcn.yaml)     | 109 FPS | 20h  | 29.9 | [model](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB) \| [log](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB)
-[R18_nodcn](projects/OneNet/configs/onenet.res18.nodcn.yaml) | 138 FPS | 13h  | 27.7 | [model](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB) \| [log](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB)
+Two-Stream     | 6h  | 97.5 | 
+One-Stream  | 6h  | 97.5 | )
 
 
 ## Supervised RGB-Infrared Person Re-Identification
