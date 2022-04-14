@@ -18,6 +18,15 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 
 # How to Use
 
+## Environment
+- Python 3.6.13
+- PyTorch 1.10.2
+- Numpy 1.19.2
+- Scipy 1.5.2
+- TensorboardX 2.2
+- Cuda 11.6
+- GPU a single Nividia 2080Ti 
+
 ## Datasets
 
 - (1) RegDB: The RegDB dataset can be downloaded from this [website](http://dm.dongguk.edu/link.html) by submitting a copyright form.
