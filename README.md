@@ -47,3 +47,23 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
    - run `python pre_process_sysu.py` to preprocess the dataset, the training data will be stored in ".npy" format.
 
 - A private download link of both datasets can be provided via sending me an email (chenyehansen@gmail.com). 
+
+## Self-supervised Pre-Training with MMGL
+
+Only **single-gpu** training is supported now.
+
+To do MMGL pre-training on a two-stream ResNet-50 backbone, run:
+```
+python train.py --dataset sysu --stream two --lr 0.1 --gpu 0
+```
+
+**Optional Hyper-Parameters**
+`--num_stripe` : The number of partition stripes
+`--cl_weight`: The weight of PCC loss
+`--cl_temp`: The temperature of PCC loss
+
+
+To do MMGL pre-training on a one-stream ResNet-50 backbone, run:
+```
+python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
+```
