@@ -73,7 +73,7 @@ python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 
 **Pre-trained Models：**
 
-Backbone | Training Time | Permutation Accuracy | Link
+Backbone | Training Time | Permutation Accuracy | Model
 ---|:---:|:---:|:---:
 Two-Stream     | 6h  | 98.6 | avaliable soon
 One-Stream  | 6h  | 97.5 | avaliable soon
