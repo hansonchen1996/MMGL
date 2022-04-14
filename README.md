@@ -75,8 +75,8 @@ python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 
 Backbone | Training Time | Permutation Accuracy | Link
 ---|:---:|:---:|:---:
-Two-Stream     | 6h  | 97.5 | avaliable soon
-One-Stream  | 6h  | 97.5 | avaliable soon)
+Two-Stream     | 6h  | 98.6 | avaliable soon
+One-Stream  | 6h  | 97.5 | avaliable soon
 
 
 ## Supervised RGB-Infrared Person Re-Identification
