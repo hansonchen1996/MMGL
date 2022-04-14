@@ -70,3 +70,21 @@ To do MMGL pre-training on a *one-stream* ResNet-50 backbone, run:
 ```
 python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 ```
+
+## Supervised RGB-Infrared Person Re-Identification
+
+Once the pre-training is finished, please move it to the corresponding ```save_model/``` dictionary of different methods.
+
+To perform supervised RGB-IR ReID with Base / AGW, run:
+```
+cd AGW
+
+python train.py --dataset sysu (regdb) --mode all --lr 0.1 --method agw (base) --gpu 0 --resume '(wirite your checkpoint file name here)'
+```
+
+To perform supervised RGB-IR ReID with DDAG, run:
+```
+cd DDAG
+
+python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume '(wirite your checkpoint file name here)'
+```
