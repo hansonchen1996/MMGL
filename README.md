@@ -97,13 +97,13 @@ cd DDAG
 python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume '(wirite your checkpoint file name here)'
 ```
 
-**Fine-Tuned Results：**
+**MMGL Pre-Training Fine-Tuned Results:**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
 |AGW  | MMGL | -----   | -----  | -----  | avaliable soon|
 |DDAG     | MMGL | -----  | ----- | ----- |avaliable soon|
 
-**ImageNet Supervised Pre-Training Fine-Tuned Results：**:
+**ImageNet Supervised Pre-Training Fine-Tuned Results:**
 
 |Methods    | Pretrained| Rank@1  | mAP  |  Model|
 | --------   | -----    | -----  |  -----   |------|
