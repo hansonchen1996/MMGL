@@ -12,7 +12,7 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 
 # To Do List
 
-  - [x] Release the fine-tuned models and training logs
+  - [x] Release the fine-tuned models and training logs by MMGL
   - [ ] Release the source code (The code is coming soon!)
   - [ ] Release the pre-trained models and logs
   - [ ] Stay tuned
