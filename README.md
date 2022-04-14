@@ -71,6 +71,14 @@ To do MMGL pre-training on a *one-stream* ResNet-50 backbone, run:
 python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 ```
 
+**Pre-trained Models：**
+
+Method | inf_time | train_time | box AP | download
+--- |:---:|:---:|:---:|:---:
+[R18_dcn](projects/OneNet/configs/onenet.res18.dcn.yaml)     | 109 FPS | 20h  | 29.9 | [model](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB) \| [log](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB)
+[R18_nodcn](projects/OneNet/configs/onenet.res18.nodcn.yaml) | 138 FPS | 13h  | 27.7 | [model](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB) \| [log](https://drive.google.com/drive/folders/1LnHMj7pkJhODeZTNHW-UcUZxybKbQmTB)
+
+
 ## Supervised RGB-Infrared Person Re-Identification
 
 Once the pre-training is finished, please move it to the corresponding ```save_model/``` dictionary of different methods.
