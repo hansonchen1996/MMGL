@@ -75,8 +75,8 @@ python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 
 Backbone | Training Time | Permutation Accuracy | Model
 ---|:---:|:---:|:---:
-Two-Stream     | 6h  | 98.6 | avaliable soon
-One-Stream  | 6h  | 97.5 | avaliable soon
+Two-Stream     | 6h  | 98.6% | avaliable soon
+One-Stream  | 6h  | 97.5% | avaliable soon
 
 
 ## Supervised RGB-Infrared Person Re-Identification
@@ -100,8 +100,8 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 **MMGL Pre-Training Fine-Tuned Results:**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
-|AGW  | MMGL | -----   | -----  | -----  | avaliable soon|
-|DDAG     | MMGL | -----  | ----- | ----- |avaliable soon|
+|AGW  | MMGL | -----   | -----  | avaliable soon|
+|DDAG     | MMGL | 56.75%  | 53.96% |avaliable soon|
 
 **ImageNet Supervised Pre-Training Fine-Tuned Results:**
 
