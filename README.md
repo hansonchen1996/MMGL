@@ -58,8 +58,11 @@ python train.py --dataset sysu --stream two --lr 0.1 --gpu 0
 ```
 
 **Optional Hyper-Parameters**
+
 `--num_stripe` : The number of partition stripes
+
 `--cl_weight`: The weight of PCC loss
+
 `--cl_temp`: The temperature of PCC loss
 
 
