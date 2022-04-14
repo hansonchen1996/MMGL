@@ -101,11 +101,11 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
 |AGW  | MMGL | -----   | -----  | avaliable soon|
-|DDAG     | MMGL | 56.75%  | 53.96% |[GoogleDrive](https://drive.google.com/file/d/1hXYVXwfwNdL5JS9BPWvGwGD5ZB3FPzCy/view?usp=sharing)|
+|DDAG     | MMGL | 56.75%  | 53.96% |[Checkpoint](https://drive.google.com/file/d/1hXYVXwfwNdL5JS9BPWvGwGD5ZB3FPzCy/view?usp=sharing) \| [Log](https://drive.google.com/file/d/1rpwVqG0q_O-Jg7Yz9itx0VZj4Euxy6GK/view?usp=sharing)|
 
 **ImageNet Supervised Pre-Training Fine-Tuned Results:**
 
 |Methods    | Pretrained| Rank@1  | mAP  |  Model|
 | --------   | -----    | -----  |  -----   |------|
-|AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
+|AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [Checkpoint](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
 |DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
