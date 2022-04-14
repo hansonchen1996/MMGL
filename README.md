@@ -52,12 +52,12 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 
 Only **single-gpu** training is supported now.
 
-To do MMGL pre-training on a two-stream ResNet-50 backbone, run:
+To do MMGL pre-training on a *two-stream* ResNet-50 backbone, run:
 ```
 python train.py --dataset sysu --stream two --lr 0.1 --gpu 0
 ```
 
-**Optional Hyper-Parameters**
+**Optional Hyper-Parameters：**
 
 `--num_stripe` : The number of partition stripes
 
@@ -66,7 +66,7 @@ python train.py --dataset sysu --stream two --lr 0.1 --gpu 0
 `--cl_temp`: The temperature of PCC loss
 
 
-To do MMGL pre-training on a one-stream ResNet-50 backbone, run:
+To do MMGL pre-training on a *one-stream* ResNet-50 backbone, run:
 ```
 python train.py --dataset sysu --stream one --lr 0.1 --gpu 0
 ```
