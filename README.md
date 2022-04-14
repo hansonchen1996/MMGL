@@ -30,7 +30,7 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 
 **Hardware**
 
-- GPU: a single Nividia 2080Ti (original paper) / 3080Ti (what we use now)
+- A single Nividia 2080Ti (original paper) / 3080Ti (what we use now)
 - Nvidia Driver Version: 510.54
 - CUDA Version: 11.6 
 
