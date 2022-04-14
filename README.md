@@ -25,7 +25,7 @@ RGB-Infrared person re-identification (RGB-IR ReID) aims to associate people acr
 - Scipy 1.5.2
 - TensorboardX 2.2
 - Cuda 11.6
-- GPU a single Nividia 2080Ti 
+- GPU: a single Nividia 2080Ti 
 
 ## Datasets
 
