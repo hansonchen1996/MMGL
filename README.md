@@ -110,3 +110,5 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 | --------   | -----    | -----  |  -----   |------|
 |AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [Checkpoint](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
 |DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
+
+\* Both of these two methods may have some fluctuation due to random spliting. The results might be better by finetuning the hyper-parameters.
