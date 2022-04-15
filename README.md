@@ -112,3 +112,13 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 | --------   | -----    | -----  |  -----   |------|
 |AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [Checkpoint](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
 |DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
+
+# Citation
+
+Please cite this paper in your publications if it helps your research:
+```@article{wan2021self,
+  title={Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification},
+  author={Wan, Lin and Jing, Qianyan and Sun, Zongyuan and Zhang, Chuang and Li, Zhihang and Chen, Yehansen},
+  journal={arXiv preprint arXiv:2112.06147},
+  year={2021}
+}```
