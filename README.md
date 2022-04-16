@@ -98,7 +98,7 @@ cd DDAG
 python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'wirite your checkpoint file name here'
 ```
 
-**MMGL Pre-Training Fine-Tuned Results （SYSU-MM01, Single-Shot & All-Search）:**
+**MMGL Pre-Training Fine-Tuned Results (SYSU-MM01, Single-Shot & All-Search):**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
 |AGW  | MMGL | 56.97%   | 54.61%  | [Checkpoint](https://drive.google.com/file/d/1y_GmFSWiVtsu0_Zf5tENLU0BTf6j9qfB/view?usp=sharing) \| [Training Log](https://drive.google.com/file/d/1xSdwuZ6AP3J-8Qi-dOBFw4J723I7m6eS/view?usp=sharing)|
