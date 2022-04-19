@@ -256,9 +256,9 @@ def adjust_learning_rate(optimizer_P, optimizer_G, epoch):
     """Sets the learning rate to the initial LR decayed by 10 every 30 epochs"""
     if epoch < 10:
         lr = args.lr * (epoch + 1) / 10
-    elif epoch >= 10 and epoch < 20:
+    elif epoch >= 10 and epoch < 30:
         lr = args.lr
-    elif epoch >= 20 and epoch < 50:
+    elif epoch >= 30 and epoch < 50:
         lr = args.lr * 0.1
     elif epoch >= 50:
         lr = args.lr * 0.01
