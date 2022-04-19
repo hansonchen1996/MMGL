@@ -123,6 +123,8 @@ python test_ddag.py --dataset sysu --mode all --wpa --graph --gpu 1 --resume 'mo
   
   - `--gpu`:  which gpu to run.
 
+# Results
+
 **MMGL Pre-Training Fine-Tuned Results (SYSU-MM01, Single-Shot & All-Search):**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
