@@ -91,14 +91,6 @@ cd AGW
 python train.py --dataset sysu (or regdb) --mode all --lr 0.1 --method agw (or base) --gpu 0 --resume 'wirite your checkpoint file name here'
 ```
 
-To perform supervised RGB-IR ReID with DDAG, run:
-```
-cd DDAG
-
-python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'wirite your checkpoint file name here'
-```
-
-
 To test a model on SYSU-MM01 dataset by 
   ```
 python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
@@ -108,6 +100,26 @@ python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
   - `--mode`: "all" or "indoor" all search or indoor search.
   
   - `--resume`: the saved model path.
+  
+  - `--gpu`:  which gpu to run.
+
+To perform supervised RGB-IR ReID with DDAG, run:
+```
+cd DDAG
+
+python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'wirite your checkpoint file name here'
+```
+
+To test a model on SYSU-MM01 dataset by 
+
+```
+python test_ddag.py --dataset sysu --mode all --wpa --graph --gpu 1 --resume 'model_path' 
+```
+  - `--dataset`: "sysu".
+  
+  - `--mode`: "all" or "indoor" all search or indoor search.
+  
+  - `--resume`: the saved model path. ** Important **
   
   - `--gpu`:  which gpu to run.
 
