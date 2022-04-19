@@ -2,7 +2,7 @@
 
 ![](pipeline.png)
 
-This is the offical implementation of the paper 'Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification'.
+This is the offical PyTorch implementation of the paper 'Self-Supervised Modality-Aware Multiple Granularity Pre-Training for RGB-Infrared Person Re-Identification'.
 
 **Authors**: *Lin Wan, Qianyan Jing, Zongyuan Sun, Chuang Zhang, Zhihang Li, and Yehansen Chen*
 
