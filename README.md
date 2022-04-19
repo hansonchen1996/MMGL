@@ -98,6 +98,19 @@ cd DDAG
 python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'wirite your checkpoint file name here'
 ```
 
+
+To test a model on SYSU-MM01 dataset by 
+  ```
+python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
+```
+  - `--dataset`: "sysu".
+  
+  - `--mode`: "all" or "indoor" all search or indoor search.
+  
+  - `--resume`: the saved model path.
+  
+  - `--gpu`:  which gpu to run.
+
 **MMGL Pre-Training Fine-Tuned Results (SYSU-MM01, Single-Shot & All-Search):**
 |Methods    | Pretrained| Rank@1  | mAP |  Model|
 | --------   | -----    | -----  |  ----- |------|
@@ -113,18 +126,6 @@ python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resu
 |AGW  | ImageNet | ~ 47.50%  | ~ 47.65% | [Checkpoint](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
 |DDAG      | ImageNet | ~ 54.75% | ~53.02% |----- |
 
-Test a model on SYSU-MM01 dataset by 
-  ```bash
-python test.py --mode all --resume 'model_path' --gpu 0 --dataset sysu
-```
-  - `--dataset`: "sysu".
-  
-  - `--mode`: "all" or "indoor" all search or indoor search.
-  
-  - `--resume`: the saved model path.
-  
-  - `--gpu`:  which gpu to run.
-  - 
 # Citation
 
 Please cite this paper in your publications if it helps your research:
