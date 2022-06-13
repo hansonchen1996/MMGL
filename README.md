@@ -88,7 +88,7 @@ To perform supervised RGB-IR ReID with Base / AGW, run:
 ```
 cd AGW
 
-python train.py --dataset sysu (or regdb) --mode all --lr 0.1 --method agw (or base) --gpu 0 --resume 'wirite your checkpoint file name here'
+python train.py --dataset sysu (or regdb) --mode all --lr 0.1 --method agw (or base) --gpu 0 --resume 'write your checkpoint file name here'
 ```
 
 To test a model on SYSU-MM01 dataset by 
@@ -107,7 +107,7 @@ To perform supervised RGB-IR ReID with DDAG, run:
 ```
 cd DDAG
 
-python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'wirite your checkpoint file name here'
+python train_ddag.py --dataset sysu(regdb) --lr 0.1 --wpa --graph --gpu 0 --resume 'write your checkpoint file name here'
 ```
 
 To test a model on SYSU-MM01 dataset by 
